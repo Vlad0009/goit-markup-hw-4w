@@ -378,7 +378,7 @@ letter-spacing: 0.03em;
 
 .feature-style::before {
     display: block;
-content: "";
+    content: "";   
 height: 120px;
 background-size: contain;
 margin-bottom: 30px;
