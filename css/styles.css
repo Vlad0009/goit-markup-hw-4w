@@ -437,13 +437,14 @@ background-position: center;
 }
 
 .social {
-    display: inline-block;
+    display: flex;
     content: "";
     height: 44px;
-    width: 206px;
+    width: 44px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 10px;
     }
 
     .social-inst {
