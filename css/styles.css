@@ -437,6 +437,7 @@ background-position: center;
 }
 
 .social {
+    list-style: none;
     display: flex;
     content: "";
     height: 44px;
