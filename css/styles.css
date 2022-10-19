@@ -388,25 +388,24 @@ background-position: center;
 }
 
 .ftr-antenna::before {
-    background-image: url(../images/symbol-defs.svg#icon-antenna);
-    fill: #212121;
+    background-image: url(../images/antenna.svg);
     background-size: auto;
 }
 
 .ftr-clock::before {
-        background-image: url(../images/clock.png);
+        background-image: url(../images/clock.svg);
         background-size: auto;
 }
 
 .ftr-monitor::before {
     
-    background-image: url(../images/monitor.png);
+    background-image: url(../images/monitor.svg);
     background-size: auto;
 }
 
 .ftr-spaceman::before {
     
-    background-image: url(../images/spaceman.png);
+    background-image: url(../images/astronaut.svg);
     background-size: auto;
 }
 
