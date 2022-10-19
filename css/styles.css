@@ -388,7 +388,8 @@ background-position: center;
 }
 
 .ftr-antenna::before {
-    background-image: url(../images/antenna.png);
+    background-image: url(../images/symbol-defs.svg#icon-antenna);
+    fill: #212121;
     background-size: auto;
 }
 
