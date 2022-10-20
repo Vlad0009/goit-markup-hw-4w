@@ -25,10 +25,10 @@
                 </a>
                 <ul class="site-list list">
                     <li class="page-item">
-                        <a href="./index.html" class="page-title">Студія</a>
+                        <a href="./index.html" class="page-title current">Студія</a>
                     </li>
                     <li class="page-item">
-                        <a href="./portofolio.html" class="page-title current">Портфоліо</a>
+                        <a href="./portofolio.html" class="page-title">Портфоліо</a>
                     </li>
                     <li class="page-item">
                         <a href="./index.html" class="page-title">Контакти</a>
@@ -37,11 +37,16 @@
                 </ul>
             </nav>
             <ul class="site-contacts list">
-                <li class="page-contacts envelope">
-                    <a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a>
+                <li class="page-contacts ">
+                    <a href="mailto:info@devstudio.com" class="contacts">
+                        <svg class="envelope" width="16px" height="12px">
+                            <use href="../images/symbol-defs.svg#icon-envelope"></use></svg>
+                            info@devstudio.com</a>
                 </li>
                 <li class="page-contacts smartphone">
-                    <a href="tel:+380961111111" class="contacts">+38 096 111 11 11</a>
+                    <a href="tel:+380961111111" class="contacts">
+                        <svg class="smartphone" width="10px" height="16px">
+                            <use href="../images/symbol-defs.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
                 </li>
             </ul>
         </div>
@@ -81,6 +86,7 @@
             
         </a>
         </li>
+        
         <li class="pjt-item">
             <a href="" class="list-title">
             <img src="./images/poster.jpg" alt="Постер New Orlean vs Golden Star" width="370"/>
@@ -160,13 +166,14 @@
     </main>
     <!--Контакти-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-container">
+            <div class="">
             <a href="./index.html" class="logo">
                 <span class="ingredient">Web</span><span class="studio-footer">Studio</span>
         </a>
-        <address class="adres-style">  
-            <ul class="site-contacts list-address">
-                <li>                     
+        <address class="adres-style"> 
+            <ul class="footer-contacts list-address">
+                <li>
                     <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow" class="add-footer">м. Київ, пр-т Лесі Українки, 26</a>                          
                 </li>
                 <li >
@@ -178,6 +185,38 @@
                </ul> 
         </address>
         </div>
+        <div class="social-container">
+        <h3 class="footer-social">Приєднуйтесь</h3>
+        <ul class="">
+            <li class="foot-soc f-ins">
+                    <a href="" class="fsoc-list">
+                        <svg class="soc-item" width="44px" height="44px">
+                            <use href="./images/symbol-defs.svg#icon-insta"></use>
+                        </svg>
+                    </a>
+            </li>
+            <li class="foot-soc f-tw">
+                <a href="" class="fsoc-list">
+                    <svg class="soc-item" width="44px" height="44px">
+                        <use href="./images/symbol-defs.svg#icon-twiter"></use>
+                    </svg>
+                </a>
+              </li>
+            <li class="foot-soc f-fac">
+                <a href class="fsoc-list">
+                    <svg class="soc-item" width="44px" height="44px">
+                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+              <li class="foot-soc f-in">
+                <a href="" class="fsoc-list">
+                    <svg class="soc-item" width="44px" height="44px">
+                        <use href="./images/symbol-defs.svg#icon-in"></use>
+                    </svg>
+                </a>
+                  </ul>
+        </div>
+    </div>
     </footer>
   </body>
 </html>
