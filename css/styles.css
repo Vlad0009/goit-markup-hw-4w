@@ -259,6 +259,7 @@ margin-right: 10px;
         rgba(47, 48, 58, 0.4)),
         url(../images/img.jpg);
     background-size: 100%;
+    background-position: center;
     max-width: 1600px;
     height: 600px;
     margin-bottom: auto;
@@ -454,6 +455,7 @@ background-position: center;
     display: flex;
     justify-content: center;
     padding: 0;
+    margin-top: 16px;
 }
 .social {
     list-style: none;
@@ -465,37 +467,15 @@ background-position: center;
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 10px;
-    fill: var(--primary-background-color);
+    fill: var(--svg-clients-brd);
     } 
 
     .social:hover,
     .social:focus {
-        fill: var(--primary-title-color);
-        background: #FFFFFF;
-        
+        fill: var(--primary-background-color);
+        background: var(--primary-title-color);
     }
 
-   
-    .social-inst {
-        margin-right: 10px;
-        width: 44px;
-        background-image: url(../images/insta.svg);
-    }
-    .social-tw {
-        margin-right: 10px;
-        width: 44px;
-        background-image: url(../images/twiter.svg);
-    }
-    .social-face {
-        margin-right: 10px;
-        width: 44px;
-        background-image: url(../images/facebook.svg);
-    }
-    .social-in {
-        margin-right: 10px;
-        width: 44px;
-        background-image: url(../images/in.svg);
-    }
 
 
 
@@ -796,7 +776,7 @@ padding-left: 0;
 .footer-list {
     list-style: none;
     display: flex;
-margin: 20 0 0 0;
+margin: 20px 0 0 0;
 padding: 0 0 0 0;
 content: "";
 background-size: contain;
@@ -817,6 +797,7 @@ background-position: center;
 .foot-soc {
 
 margin-right: 10px;
+fill: var(--primary-background-color);
 
 }
 
@@ -838,9 +819,15 @@ margin-right: 10px;
     background-image: url(../images/instafooter.svg);
 }
 
+
+.foot-soc:hover,
+.foot-soc:focus {
+   
+}
+
 .foot-soc:hover::before,
 .foot-soc:focus::before {
-    color: #2196F3;
+    background-color: #2196F3;
 }
 /* .item:nth-child(2n) {
     background-color: aquamarine;
