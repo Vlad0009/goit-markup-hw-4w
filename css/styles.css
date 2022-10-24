@@ -148,9 +148,9 @@ text-decoration: none;
 }
 
 .contacts {
+    display: flex;
     font-style: normal;
     text-decoration: none;
-    justify-items: center;
     align-items: center;
     fill: var(--title-text-color);
 
@@ -460,13 +460,16 @@ background-position: center;
 .social {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: center;
     content: "";
     height: 44px;
     width: 44px;
+    border-radius: 50%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    margin-right: 10px;
+    
     fill: var(--svg-clients-brd);
     } 
 
@@ -477,7 +480,9 @@ background-position: center;
     }
 
 
-
+.social-item {
+    margin-right: 10px;
+}
 
 
 .user {
@@ -718,6 +723,10 @@ background-position: center;
 
 /* підвал */
 
+.social-container{
+align-items: baseline;
+}
+
 .footer-container {
     display: flex;
     align-items: baseline;
@@ -785,19 +794,24 @@ background-position: center;
 }
 
 .fsoc-list {
-    fill: rgba(0, 0, 0, 0.1);
-    
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+
 }
 
 .fsoc-list:hover,
 .fsoc-list:focus {
-    fill: var(--primary-title-color);
+    background-color: var(--primary-title-color);
 }
 
 .foot-soc {
 
 margin-right: 10px;
-fill: var(--primary-background-color);
 
 }
 
@@ -807,19 +821,18 @@ fill: var(--primary-background-color);
 
 .soc-item {
     fill: var(--primary-background-color);
-    
-}
+    }
 
 .soc-item:hover,
 .soc-item:focus {
-    fill: #2196F3;        
+         
 }
 
-.f-ins {
+/* .f-ins {
     background-image: url(../images/instafooter.svg);
-}
+} */
 
-
+/* 
 .foot-soc:hover,
 .foot-soc:focus {
    
@@ -828,7 +841,7 @@ fill: var(--primary-background-color);
 .foot-soc:hover::before,
 .foot-soc:focus::before {
     background-color: #2196F3;
-}
+} */
 /* .item:nth-child(2n) {
     background-color: aquamarine;
  }  */
