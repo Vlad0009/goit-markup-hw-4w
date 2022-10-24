@@ -224,12 +224,6 @@ margin-right: 10px;
 /* Герой */
 
 
-
-/* .overlay {
-    height: 600px;
-    outline: 1px solid black;
-} */
-
 .hero, .footer {
         background: var(--primary-bcg-hero);
     padding: 60px 0;
@@ -316,17 +310,14 @@ border-color: transparent;
 .title-hero {
     padding: 10px 32px;
     min-width: 216px;
-    
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 /* identical to box height, or 188% */
-
 display: inline-block;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: var(--primary-button-text)
 }
 
@@ -359,7 +350,6 @@ letter-spacing: 0.03em;
 .features {
     margin-top: 0;
     margin-bottom: 10px;
-
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -382,7 +372,6 @@ letter-spacing: 0.03em;
 font-size: 14px;
 line-height: 1.71;
 /* or 171% */
-
 letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
@@ -491,9 +480,9 @@ background-position: center;
 font-size: 16px;
 line-height: 1.19;
 /* identical to box height */
-
 letter-spacing: 0.03em;
 }   
+
 .job-title, .project-type {
     font-weight: 400;
     font-size: 16px;
@@ -548,7 +537,7 @@ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0p
     margin-bottom: 4px;
 }
     
-}
+
 
 img {
     display: block;
@@ -689,35 +678,7 @@ background-position: center;
 }  
 
 
-/* .client1 {
-    background-image: url(../images/symbol-defs.svg#icon-client1);
-    background-repeat: no-repeat;
-    }
 
-.client2 {
-        background-image: url(../images/symbol-defs.svg#icon-client2);
-        background-repeat: no-repeat;
-        }
-        
-.client3 {
-    background-image: url(../images/client3.svg);
-    background-repeat: no-repeat;
-    }
-    
-.client4 {
-    background-image: url(../images/client4.svg);
-    background-repeat: no-repeat;
-    }
-    
-.client5 {
-    background-image: url(../images/client5.svg);
-    background-repeat: no-repeat;
-    }
-    
-.client6 {
-    background-image: url(../images/client6.svg);
-    background-repeat: no-repeat;
-    } */
     
 
 
@@ -828,21 +789,3 @@ margin-right: 10px;
          
 }
 
-/* .f-ins {
-    background-image: url(../images/instafooter.svg);
-} */
-
-/* 
-.foot-soc:hover,
-.foot-soc:focus {
-   
-}
-
-.foot-soc:hover::before,
-.foot-soc:focus::before {
-    background-color: #2196F3;
-} */
-/* .item:nth-child(2n) {
-    background-color: aquamarine;
- }  */
- /* outline: 2px solid tomato; */
